@@ -3,7 +3,7 @@
   "disallowAttributeInterpolation": true,
   "disallowAttributeTemplateString": true,
   "disallowBlockExpansion": true,
-  "disallowClassAttributeWithStaticValue": true, //
+  "disallowClassAttributeWithStaticValue": true,
   "disallowClassLiteralsBeforeAttributes": null,
   "disallowClassLiteralsBeforeIdLiterals": null,
   "disallowClassLiterals": null,
