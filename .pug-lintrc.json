@@ -1,6 +1,6 @@
 {
-  "disallowAttributeConcatenation": null,
-  "disallowAttributeInterpolation": true,
+  "disallowAttributeConcatenation": true,
+  "disallowAttributeInterpolation": null,
   "disallowAttributeTemplateString": true,
   "disallowBlockExpansion": true,
   "disallowClassAttributeWithStaticValue": true,
@@ -11,7 +11,7 @@
   "disallowHtmlText": true,
   "disallowIdAttributeWithStaticValue": true,
   "disallowIdLiteralsBeforeAttributes": null,
-  "disallowIdLiterals": true,
+  "disallowIdLiterals": null,
   "disallowLegacyMixinCall": true,
   "disallowMultipleLineBreaks": true,
   "disallowSpaceAfterCodeOperator": null,
@@ -22,10 +22,10 @@
     }
   ],
   "disallowSpecificTags": null,
-  "disallowStringConcatenation": null,
-  "disallowStringInterpolation": true,
+  "disallowStringConcatenation": true,
+  "disallowStringInterpolation": null,
   "disallowTagInterpolation": null,
-  "disallowTemplateString": null,
+  "disallowTemplateString": true,
   "disallowTrailingSpaces": true,
   "maximumNumberOfLines": null,
   "requireClassLiteralsBeforeAttributes": true,
@@ -37,9 +37,6 @@
   "requireSpaceAfterCodeOperator": true,
   "requireSpacesInsideAttributeBrackets": null,
   "requireSpecificAttributes": [
-    {
-      "form": "action"
-    },
     {
       "img": "alt"
     },
@@ -60,5 +57,6 @@
   "validateExtensions": null,
   "validateIndentation": 2,
   "validateLineBreaks": "LF",
-  "validateSelfClosingTags": true
+  "validateSelfClosingTags": true,
+  "validateTemplateString": null
 }
